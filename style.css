@@ -55,7 +55,6 @@ html {
   border-radius: 5px;
 }
 
-.nav-links a.active,
 .nav-links a:hover {
   background-color: #555;
 }
@@ -110,4 +109,11 @@ footer {
 
 main {
   flex: 1;
+}
+
+.nav-links a.active{
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  font-weight: bold;
 }
